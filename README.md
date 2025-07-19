@@ -44,4 +44,6 @@ THIS DESIGN IS ONLY FOR NON PROFIT PRIVATE MOTORSPORT USE ONLY
 
 ## Assembled board ##
 ![PXL_20250705_225356400](https://github.com/user-attachments/assets/78d6054a-0dec-4ca4-8428-2c6d844de678)
+![PXL_20250719_114253478](https://github.com/user-attachments/assets/fead3a7e-4969-4082-a871-8e6c290a7280)
+
 
