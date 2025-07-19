@@ -6,28 +6,29 @@ Didn't test it on the car yet but should work, with signal generator it looks li
 I finished it some time ago but didn't upload on github
 
 This is designed for speeduino platform
+
 The design is bulky and THT since its a first prototype
 
 ## Use case ##
-24+1 dual wheel setups
-12+1
-Probably like Mazda RX7 systems will also work, not sure
+* 24+1 dual wheel setups
+* 12+1
+* Probably like Mazda RX7 systems will also work, not sure
 
 ## Limitations ## 
-Lm1815 is old, slow and expensive IC but it's easy to implement and it work's with 24+1 honda distributor most of the time
-The rise time is very fast, around 5ns, it generates some spikes in output signal, not sure if its problem with my equipment, cables or this is design restriction 
+* Lm1815 is old, slow and expensive IC but it's easy to implement and it work's with 24+1 honda distributor most of the time
+* The rise time is very fast, around 5ns, it generates some spikes in output signal, not sure if its problem with my equipment, cables or this is design restriction 
 
 ## Specs ##
-It will work with signal as low as 100mV p-p
-Reasonably fast and accurate
-Fairly cheap compared to commercial products
-Should work up to 12,5k rpm's but tested it way higher and looked like it worked
-The schmitt trigger is not needed but it helps with noise reluctance and generating faster rise times and fall times
+* It will work with signal as low as 100mV p-p
+* Reasonably fast and accurate
+* Fairly cheap compared to commercial products
+* Should work up to 12,5k rpm's but tested it way higher and looked like it worked
+* The schmitt trigger is not needed but it helps with noise reluctance and generating faster rise times and fall times
 
 ## Considerations ##
-Doing proper SMD board
-The schmitt trigger is super tiny, you need some experiance with smd hotair soldering to not overheat it, you should  solder it first or redesign the board for bigger one
-You could use non inverting schmitt trigger and probably should
+* Doing proper SMD board
+* The schmitt trigger is super tiny, you need some experiance with smd hotair soldering to not overheat it, you should  solder it first or redesign the board for bigger one
+* You could use non inverting schmitt trigger and probably should
 
 THIS DESIGN IS ONLY FOR NON PROFIT PRIVATE MOTORSPORT USE ONLY
 
